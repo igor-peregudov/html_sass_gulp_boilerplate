@@ -1,0 +1,46 @@
+sass/
+|
+|Ц base/
+|   |Ц _reset.scss       # Reset/normalize
+|   |Ц _typography.scss  # “ипографские правила
+|   Е                    # и т.д.
+|
+|Ц components/
+|   |Ц _buttons.scss     #  нопки
+|   |Ц _carousel.scss    #  арусель
+|   |Ц _cover.scss       # ќбложка
+|   |Ц _dropdown.scss    # ¬ыпадающий список
+|   Е                    # и т.д.
+|
+|Ц layout/
+|   |Ц _navigation.scss  # Ќавигаци€
+|   |Ц _grid.scss        # —етка
+|   |Ц _header.scss      # Ўапка
+|   |Ц _footer.scss      # ѕодвал
+|   |Ц _sidebar.scss     # Ѕокова€ панель
+|   |Ц _forms.scss       # ‘ормы
+|   Е                    # и т.д.
+|
+|Ц pages/
+|   |Ц _home.scss        # —тили, особые дл€ главной страницы
+|   |Ц _contact.scss     # —тили, особые дл€ страницы контактов
+|   Е                    # и т.д.
+|
+|Ц themes/
+|   |Ц _theme.scss       # “ема по умолчанию
+|   |Ц _admin.scss       # “ема админа
+|   Е                    # и т.д.
+|
+|Ц utils/
+|   |Ц _variables.scss   # ѕеременные Sass
+|   |Ц _functions.scss   # ‘ункции Sass
+|   |Ц _mixins.scss      # ѕримеси Sass
+|   |Ц _helpers.scss     # ѕомощники классов & placeholderТов
+|
+|Ц vendors/
+|   |Ц _bootstrap.scss   # Bootstrap
+|   |Ц _jquery-ui.scss   # jQuery UI
+|   Е                    # и т.д.
+|
+|
+`Ц main.scss             # главный файл Sass
