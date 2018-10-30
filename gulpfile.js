@@ -41,7 +41,7 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 });
 
 gulp.task('scripts', function() {
-    return gulp.src(['app/libs/jquery.js', 'app/libs/owl.js', 'app/libs/wow.js', 'app/libs/magnific.js', 'app/libs/masonry.js', 'app/libs/maskedinput.js'])// Сюда добавляем js библиотеки
+    return gulp.src([])// Сюда добавляем js библиотеки
         .pipe(concat('libs.min.js')) // Собираем библиотеки в кучу в новом файле libs.min.js
         .pipe(uglify()) // Сжимаем JS файл
         .pipe(gulp.dest('app/js')); // Выгружаем в папку app/js
